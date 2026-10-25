@@ -1,0 +1,93 @@
+{
+  "name": "PokeUO",
+  "news": "Welcome to PokeUO! Catch, train and evolve Pokemon in the world of Ultima Online.",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 2595
+  },
+  "clientversion": "7.0.113.0",
+  "launcher": {
+    "version": 1,
+    "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/launcher-v1/PokeUOLauncher.exe",
+    "sha256": "0d949974681e3ba6f76af5d02b2eab3a896b6f936ac5123b19e80e71384ea3a8"
+  },
+  "components": [
+    {
+      "id": "gamedata",
+      "title": "Ultima Online game data",
+      "version": 1,
+      "target": "Data Files",
+      "strip": "",
+      "clean": false,
+      "keep": [],
+      "files": [
+        {
+          "name": "PokeUO-GameData-1-of-2.zip",
+          "size": 1469495501,
+          "sha256": "e16ebcbfde1cb5e26d25b649812b14505dd002289469b45b9f31ea70000f8688",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/gamedata-v1/PokeUO-GameData-1-of-2.zip"
+        },
+        {
+          "name": "PokeUO-GameData-2-of-2.zip",
+          "size": 828018988,
+          "sha256": "5c4addd09595a6e6504819368ce2e318a0bdfe3c69b494209bb6e103cfca7dd3",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/gamedata-v1/PokeUO-GameData-2-of-2.zip"
+        }
+      ]
+    },
+    {
+      "id": "patch",
+      "title": "PokeUO content",
+      "version": 11,
+      "target": "Data Files",
+      "strip": "Data Files/",
+      "clean": false,
+      "keep": [],
+      "files": [
+        {
+          "name": "PokeUO-Content.zip",
+          "size": 11577127,
+          "sha256": "1fa298d521207c6a2368d729acccf38442992f05ee18645a5b7bd43b98e4bba9",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v11/PokeUO-Content.zip"
+        }
+      ]
+    },
+    {
+      "id": "client",
+      "title": "game client",
+      "version": 1,
+      "target": "ClassicUO",
+      "strip": "",
+      "clean": true,
+      "keep": [
+        "settings.json",
+        "Data"
+      ],
+      "files": [
+        {
+          "name": "PokeUO-Client.zip",
+          "size": 41749836,
+          "sha256": "7aadf2a68b0c5efa13922de4c7972f1379f77408a6bace8fedf8cd4381e5f765",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/client-v1/PokeUO-Client.zip"
+        }
+      ]
+    },
+    {
+      "id": "mapcache",
+      "title": "PokeUO world map",
+      "version": 1,
+      "target": "%ProgramData%\\PokeUO",
+      "strip": "",
+      "clean": false,
+      "keep": [],
+      "files": [
+        {
+          "name": "PokeUO-MapCache.zip",
+          "size": 60061160,
+          "sha256": "df845ebf2603f66cca53fcc2cb7a9690c2dbb3da485509579800050ef1f04cc5",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/mapcache-v1/PokeUO-MapCache.zip"
+        }
+      ]
+    }
+  ]
+}
