@@ -38,7 +38,7 @@
     {
       "id": "patch",
       "title": "PokeUO content",
-      "version": 23,
+      "version": 24,
       "target": "Data Files",
       "strip": "Data Files/",
       "clean": false,
@@ -46,9 +46,9 @@
       "files": [
         {
           "name": "PokeUO-Content.zip",
-          "size": 93587306,
-          "sha256": "a36f0770af398690a6575465a650bfbb2df37b69c11c66f3177163344eb6d494",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v23/PokeUO-Content.zip"
+          "size": 141073270,
+          "sha256": "298d99ceb9fe2f8583b3da91dbdfb637b02736ea2d24988c47bfe69b3b81962c",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v24/PokeUO-Content.zip"
         }
       ]
     },
@@ -75,7 +75,7 @@
     {
       "id": "mapcache",
       "title": "PokeUO world map",
-      "version": 5,
+      "version": 6,
       "target": "%ProgramData%\\PokeUO",
       "strip": "",
       "clean": false,
@@ -83,9 +83,9 @@
       "files": [
         {
           "name": "PokeUO-MapCache.zip",
-          "size": 60229022,
-          "sha256": "db28c40e7f24448ff57a204c5c900a863e956c845dd9c9b52672082ec2e8d3c7",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/mapcache-v5/PokeUO-MapCache.zip"
+          "size": 60258907,
+          "sha256": "6bfdd1620c522de0511a76c9033f631c03b8e26542a13f17c8c38edfcae4465b",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/mapcache-v6/PokeUO-MapCache.zip"
         }
       ]
     }
