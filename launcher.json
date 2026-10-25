@@ -38,7 +38,7 @@
     {
       "id": "patch",
       "title": "PokeUO content",
-      "version": 14,
+      "version": 15,
       "target": "Data Files",
       "strip": "Data Files/",
       "clean": false,
@@ -46,9 +46,9 @@
       "files": [
         {
           "name": "PokeUO-Content.zip",
-          "size": 29352386,
-          "sha256": "78564ee03d963f5d9fecd0a07bf8d708799703f8c3868d387162316b8f52b2ed",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v14/PokeUO-Content.zip"
+          "size": 30695521,
+          "sha256": "5c7898a79a11043f40c2d193e20bb38724edd8bf93d399795fb5b93bd28e0d29",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v15/PokeUO-Content.zip"
         }
       ]
     },
