@@ -1,6 +1,6 @@
 {
   "name": "PokeUO",
-  "news": "Welcome to PokeUO! Catch, train and evolve Pokemon in the world of Ultima Online.",
+  "news": "Legend Ball: the only ball that can catch legendary Pokemon. 250,000 gp at the Poke Mart.",
   "server": {
     "host": "127.0.0.1",
     "port": 2595
@@ -38,7 +38,7 @@
     {
       "id": "patch",
       "title": "PokeUO content",
-      "version": 17,
+      "version": 18,
       "target": "Data Files",
       "strip": "Data Files/",
       "clean": false,
@@ -46,9 +46,9 @@
       "files": [
         {
           "name": "PokeUO-Content.zip",
-          "size": 31859055,
-          "sha256": "c0f158fd4ccf930a59092174014f4c72f196109676e63ca2f287ef86df1626f1",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v17/PokeUO-Content.zip"
+          "size": 31860356,
+          "sha256": "67546a36010fd880044cf7b78d70a0996ec2936338d8847a4e0bdd8d85f0732c",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v18/PokeUO-Content.zip"
         }
       ]
     },
