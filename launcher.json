@@ -75,7 +75,7 @@
     {
       "id": "mapcache",
       "title": "PokeUO world map",
-      "version": 3,
+      "version": 4,
       "target": "%ProgramData%\\PokeUO",
       "strip": "",
       "clean": false,
@@ -83,9 +83,9 @@
       "files": [
         {
           "name": "PokeUO-MapCache.zip",
-          "size": 60086459,
-          "sha256": "0661629c77ee15e172551ddd223cf773151e0abfb16e4ff63a8affa1a25e39dc",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/mapcache-v3/PokeUO-MapCache.zip"
+          "size": 60194746,
+          "sha256": "e027037da3a91d10f1aba351f7ddc413bce456797190409a06f9ea35bdeba09e",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/mapcache-v4/PokeUO-MapCache.zip"
         }
       ]
     }
