@@ -55,7 +55,7 @@
     {
       "id": "client",
       "title": "game client",
-      "version": 1,
+      "version": 2,
       "target": "ClassicUO",
       "strip": "",
       "clean": true,
@@ -66,9 +66,9 @@
       "files": [
         {
           "name": "PokeUO-Client.zip",
-          "size": 41749836,
-          "sha256": "7aadf2a68b0c5efa13922de4c7972f1379f77408a6bace8fedf8cd4381e5f765",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/client-v1/PokeUO-Client.zip"
+          "size": 41749095,
+          "sha256": "0e5b85a80c0435b84af2bbfabe211cecfa2a2cd6f85570675753c82ac9bed416",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/client-v2/PokeUO-Client.zip"
         }
       ]
     },
