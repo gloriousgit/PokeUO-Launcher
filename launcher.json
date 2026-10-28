@@ -1,15 +1,15 @@
 {
   "name": "PokeUO",
-  "news": "All generation 2 Pokemon and Johto Isle, the gen 2 zoo east of Kanto Isle",
+  "news": "Wild Pokemon now drop gold, Poke Balls and evolution items",
   "server": {
     "host": "127.0.0.1",
     "port": 2595
   },
   "clientversion": "7.0.113.0",
   "launcher": {
-    "version": 3,
-    "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/launcher-v3/PokeUOLauncher.exe",
-    "sha256": "4ebaf2a67bdfffcbadd986a9a8b9ecc01ad67ac271d996ec9855f2ebda397bc6"
+    "version": 4,
+    "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/launcher-v4/PokeUOLauncher.exe",
+    "sha256": "09a3e6444bfa88f3b86b4db38c36db73dbd13f367831bc59802ff019a0e5750f"
   },
   "components": [
     {
@@ -33,7 +33,8 @@
           "sha256": "5c4addd09595a6e6504819368ce2e318a0bdfe3c69b494209bb6e103cfca7dd3",
           "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/gamedata-v1/PokeUO-GameData-2-of-2.zip"
         }
-      ]
+      ],
+      "verify": true
     },
     {
       "id": "patch",
@@ -50,7 +51,8 @@
           "sha256": "a8c060e3c0c08fd60e2ccd0c57610da3b0362d05f055c7fa185df9f53e9bcc2c",
           "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v25/PokeUO-Content.zip"
         }
-      ]
+      ],
+      "verify": true
     },
     {
       "id": "client",
@@ -70,7 +72,8 @@
           "sha256": "7881506b4c236e91347f8d2ed0843836eda50e90929b696dfc1c1e902377f410",
           "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/client-v3/PokeUO-Client.zip"
         }
-      ]
+      ],
+      "verify": true
     },
     {
       "id": "mapcache",
@@ -87,7 +90,30 @@
           "sha256": "30bc6eeceba3b93bd5a8afb23638f9099907ed810517db02b1c08ef7c69f80f0",
           "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/mapcache-v8/PokeUO-MapCache.zip"
         }
-      ]
+      ],
+      "verify": false
+    }
+  ],
+  "newslist": [
+    {
+      "date": "2026-10-28",
+      "text": "Wild Pokemon now drop gold, Poke Balls and evolution items - shinies and legendaries drop more."
+    },
+    {
+      "date": "2026-10-26",
+      "text": "New ferry pier in New Haven with moongates to PokeLand and Pokemon Island."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "Pallet Isle: every new trainer starts with Professor Oak and picks one of nine starters."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "All 135 generation 3 Pokemon, Hoenn Isle and wild gen 3 across Britannia."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "The Pokebank: account-wide storage for 300 Pokemon."
     }
   ]
 }
