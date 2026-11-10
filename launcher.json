@@ -1,6 +1,6 @@
 {
   "name": "PokeUO",
-  "news": "Wild Pokemon now drop gold, Poke Balls and evolution items",
+  "news": "Animated house decorations at the Poke Mart: lava lamp, plasma globe, snow globe, wisp lantern, spinning globe, pinwheel planter, fish tank, pendulum clock and arcade cabinet.",
   "server": {
     "host": "127.0.0.1",
     "port": 2595
@@ -39,7 +39,7 @@
     {
       "id": "patch",
       "title": "PokeUO content",
-      "version": 29,
+      "version": 30,
       "target": "Data Files",
       "strip": "Data Files/",
       "clean": false,
@@ -48,9 +48,9 @@
       "files": [
         {
           "name": "PokeUO-Content.zip",
-          "size": 187272884,
-          "sha256": "febc76e4ac1d8c524e45f5939231f3504a1736dcb588bcc3736c7b59a92001dc",
-          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v29/PokeUO-Content.zip"
+          "size": 187475846,
+          "sha256": "6536ec9615fde1863bf653e2e13eb363cde12d2b2938e0506afdeedbfa06985b",
+          "url": "https://github.com/gloriousgit/PokeUO-Launcher/releases/download/patch-v30/PokeUO-Content.zip"
         }
       ]
     },
@@ -95,6 +95,10 @@
     }
   ],
   "newslist": [
+    {
+      "date": "2026-11-11",
+      "text": "Animated house decorations at the Poke Mart: lava lamp, plasma globe, snow globe, wisp lantern, spinning globe, pinwheel planter, fish tank, pendulum clock and arcade cabinet."
+    },
     {
       "date": "2026-10-28",
       "text": "Wild Pokemon now drop gold, Poke Balls and evolution items - shinies and legendaries drop more."
